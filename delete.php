@@ -14,5 +14,6 @@ if(isset($_POST["submit"]))
 		echo mysqli_error($conn);
 	}
 }
+
 header('Location: post.php');
 ?>
